@@ -10,6 +10,10 @@
 <body>
     <header>
         <div><img src="" class="icon">icon</div>
+        <div class="score">
+            <div class="dealer-score">0</div>
+            <div class="player-score">0</div>
+        </div>
         <div class="reset">RESET</div>
     </header>
     <main>
@@ -20,6 +24,7 @@
             <section class="player">
 
             </section>
+            
         </section>
     
         <section class="button">
@@ -31,8 +36,13 @@
     
         <section class="wallet">
             <section class="money">
-                <div id="pool-bet">BET</div>
-                <div id="your-wallet">YOUR WALLET</div>
+                <div id="pool-bet">BET: <div id="pool-bet-number">0</div></div>
+                <div id="your-wallet">YOUR WALLET: <div id="your-wallet-number">0</div></div>
+            </section class>
+
+            <section class="button">
+                <button>UNDO</button>
+                <button>PLAY</button>
             </section>
             
             <section class="chips">
